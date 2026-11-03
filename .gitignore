@@ -1,0 +1,18 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Allow an example configuration template
+!.env.example
+
+# Generated backups
+backups/*
+!backups/.gitkeep
+
+# Generated execution logs
+logs/*
+!logs/.gitkeep
+
+# Temporary files
+*.tmp
+*.swp
